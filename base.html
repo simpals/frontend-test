@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Simpals Frontend Test</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+
+    <h1 class="mt-4 mb-4">Базовая разметка</h1>
+
+    <div id="cards">
+
+      <div class="card mb-2">
+        <div class="card-block">
+          <h4 class="card-title">Заголовок записи</h4>
+          <p class="card-text">Денудация формирует реголит, что лишь подтверждает то, что породные отвалы располагаются на склонах. Застываение лавы минимально. Шельф, но если принять для простоты некоторые докущения, определяет хлоридно-гидрокарбонатный силл. Делювий поперечно стягивает лимногляциальный мергель.</p>
+          <p class="card-text">
+            <span class="badge badge-pill badge-info">тег</span>
+            <span class="badge badge-pill badge-info">еще тег</span>
+          </p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-sm btn-danger">× Удалить</button>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-block">
+          <h4 class="card-title">Стремящийся наибольший</h4>
+          <p class="card-text">Поле направлений нейтрализует коллинеарный полином, откуда следует доказываемое равенство.</p>
+          <p class="card-text">
+            <span class="badge badge-pill badge-info">тег</span>
+            <span class="badge badge-pill badge-info">еще тег</span>
+          </p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-sm btn-danger">× Удалить</button>
+        </div>
+      </div>
+
+    </div>
+
+    <h4 class="mt-5">Добавить запись</h4>
+
+    <div class="card">
+      <div class="card-block">
+        <form class="form">
+
+          <fieldset class="form-group">
+            <label for="title">Заголовок</label>
+            <input id="title" type="text" class="form-control" name="title" placeholder="Заголовок">
+          </fieldset>
+
+          <fieldset class="form-group">
+            <label for="body">Текст</label>
+            <textarea id="body" class="form-control" name="body" placeholder="Текст" rows="3"></textarea>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <label for="tags">Теги</label>
+            <input id="tags" type="text" class="form-control" name="tags" placeholder="тег, еще тег">
+          </fieldset>
+
+          <button type="submit" class="btn btn-primary">Добавить</button>
+
+        </form>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
